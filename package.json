@@ -1,0 +1,27 @@
+{
+  "name": "comics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buid": "parcel build index.html --public-url ./",
+    "format": "prettier --write \"src/**/*.js\" \"src/**/*.ts\" \"test/**/*.js\" \"test/**/*.ts\"",
+    "start": "parcel -p watch index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafenoxu/comics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafenoxu/comics/issues"
+  },
+  "homepage": "https://github.com/rafenoxu/comics#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "2.2.1",
+    "sass": "^1.32.8"
+  }
+}

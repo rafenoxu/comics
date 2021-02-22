@@ -1,0 +1,8 @@
+# Npm packages
+node_modules/
+
+# Dist
+dist/
+
+# Cache
+.cache/
